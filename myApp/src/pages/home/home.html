@@ -1,13 +1,13 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Movies</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
-      {{ item.text }}
+    <button class="list-item" ion-item>
+      <img class="thumb" src="assets/fightclub.jpg" /> Fight Club
     </button>  
   </ion-list>
 </ion-content>
